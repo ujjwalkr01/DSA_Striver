@@ -2,7 +2,7 @@ package Pattern_Questions;
 
 import java.util.Scanner;
 
-public class Pattern1 {
+public class Pattern2 {
 
 	public static void main(String[] args) {
 
