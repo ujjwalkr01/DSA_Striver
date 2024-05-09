@@ -10,11 +10,13 @@ public class Pattern14 {
 
 		int n = sc.nextInt();
 
+		char start = 'E';
 		for (int i = 0; i < n; i++) {
-			char ch = 'A';
+			char ch = start;
 			for (int j = 0; j <= i; j++) {
 				System.out.print(ch++);
 			}
+			start--;
 			System.out.println();
 		}
 
