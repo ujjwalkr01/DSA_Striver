@@ -10,7 +10,7 @@ public class Pattern14 {
 
 		int n = sc.nextInt();
 
-		char start = 'E';
+		char start = (char) (int) ('A' + n - 1);
 		for (int i = 0; i < n; i++) {
 			char ch = start;
 			for (int j = 0; j <= i; j++) {
